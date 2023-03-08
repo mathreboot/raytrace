@@ -1,16 +1,17 @@
 # raytrace
 
-간단한 레이트레이싱(ray-tracing)을 구현해 본 코드입니다.
+### What's this?
 
-맥OS에서 만들기 시작했고, 업로드 때는 Windows 10 + WSL2 환경에서 실행을 확인했습니다.
-
+간단한 레이트레이싱(ray-tracing)을 구현한 코드입니다. \
+맥OS에서 만들기 시작했고, 업로드 때는 Windows 10 + WSL2 환경에서 실행을 확인했습니다. \
 그래픽 처리는 [SDL2](https://www.libsdl.org/)를 사용합니다.
 
 ![](images/raytrace-samplerun.png)
 
-퐁 반사 모델(Phong reflection model)에 대한 이해가 기본이 됩니다.
-수학쪽으로는 삼각함수, 벡터, 공간기하 등에 대한 지식이 필요합니다.
-관련된 내용을 [유튜브 동영상](https://www.youtube.com/@music-reboot/playlists) 에 설명해 두었습니다.
+[퐁 반사 모델(Phong reflection model)](https://en.wikipedia.org/wiki/Phong_reflection_model)을 기본으로 합니다. \
+수학적으로는 삼각함수, 벡터, 공간기하 등에 대한 지식이 필요하고, 관련된 내용을 [유튜브 동영상](https://www.youtube.com/@music-reboot/playlists)에 설명해 두었습니다.
+
+### 기타 참고
 
 각종 환경과 물체 기술은 rt.conf 에서..
 
