@@ -8,7 +8,7 @@
 
 ![](images/raytrace-samplerun.png)
 
-[퐁 반사 모델(Phong reflection model)](https://en.wikipedia.org/wiki/Phong_reflection_model)을 기본으로 합니다. \
+실제 구현은 [퐁 반사 모델(Phong reflection model)](https://en.wikipedia.org/wiki/Phong_reflection_model)을 기본으로 합니다. \
 수학적으로는 삼각함수, 벡터, 공간기하 등에 대한 지식이 필요하고, 관련된 내용을 [유튜브 동영상](https://www.youtube.com/@music-reboot/playlists)에 설명해 두었습니다.
 
 ### 기타 참고
